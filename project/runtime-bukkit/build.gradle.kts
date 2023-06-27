@@ -8,12 +8,12 @@ dependencies {
     compileOnly(project(":project:common"))
     compileOnly(project(":project:module-adventure"))
     compileOnly(project(":project:module-nms"))
-    compileOnly("ink.ptms.core:v11903:11903:universal")
+    compileOnly("ink.ptms.core:v12001:12001:universal")
     compileOnly("net.md-5:bungeecord-api:1.19-R0.1-SNAPSHOT")
 
-    compileOnly("com.willfp:eco:6.35.1") { isTransitive = false }
+    compileOnly("com.willfp:eco:6.65.0") { isTransitive = false }
     compileOnly("com.github.LoneDev6:api-itemsadder:3.2.5") { isTransitive = false }
-    compileOnly("me.clip:placeholderapi:2.11.1") { isTransitive = false }
+    compileOnly("me.clip:placeholderapi:2.11.3") { isTransitive = false }
     compileOnly("xyz.xenondevs.nova:nova-api:0.12.13") { isTransitive = false }
 }
 
